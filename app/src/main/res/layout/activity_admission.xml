@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admission">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/admissionToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:background="?attr/colorPrimary"
+        />
+
+    <RelativeLayout
+        android:layout_below="@+id/admissionToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_gravity="start"
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="359dp"
+                    app:srcCompat="@drawable/circular" />
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardApplyNow"
+                    app:cardBackgroundColor="@color/colorInfoHead"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="6dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_margin="11dp"
+                    app:cardElevation="4dp">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Apply Now"
+                        android:textSize="24dp"
+                        android:padding="6dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="4dp"
+                        android:textColor="@color/colorOffWhite"
+                        />
+
+
+                </android.support.v7.widget.CardView>
+
+                <GridLayout
+                    android:layout_margin="11dp"
+                    android:rowCount="3"
+                    android:columnCount="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        app:cardBackgroundColor="@color/colorOffWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnSpan="1"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:id="@+id/cardDepartments"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardElevation="4dp"
+                        >
+
+                        <LinearLayout
+                            android:padding="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/custom_border"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_margin="12dp"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/apply_now"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Departments"
+                                android:textSize="12dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_gravity="center_horizontal"
+                                />
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        app:cardBackgroundColor="@color/colorOffWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnSpan="1"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:id="@+id/cardAnnouncement"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardElevation="4dp"
+                        >
+
+                        <LinearLayout
+                            android:padding="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/custom_border"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_margin="12dp"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/ic_study"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Announement"
+                                android:textSize="12dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_gravity="center_horizontal"
+                                />
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        app:cardBackgroundColor="@color/colorOffWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnSpan="1"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:id="@+id/cardApplyInstructions"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardElevation="4dp"
+                        >
+
+                        <LinearLayout
+                            android:padding="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/custom_border"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_margin="12dp"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/ic_info"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Procedure"
+                                android:textSize="12dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_gravity="center_horizontal"
+                                />
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        app:cardBackgroundColor="@color/colorOffWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnSpan="1"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:id="@+id/cardFeeStructure"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardElevation="4dp"
+                        >
+
+                        <LinearLayout
+                            android:padding="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/custom_border"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_margin="12dp"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/ic_fee"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Fee structure"
+                                android:textSize="12dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_gravity="center_horizontal"
+                                />
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        app:cardBackgroundColor="@color/colorOffWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnSpan="1"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:id="@+id/cardNotice"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardElevation="4dp"
+                        >
+
+                        <LinearLayout
+                            android:padding="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/custom_border"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_margin="12dp"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/ic_notice"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Notice"
+                                android:textSize="12dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_gravity="center_horizontal"
+                                />
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        app:cardBackgroundColor="@color/colorOffWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnSpan="1"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:id="@+id/cardBusSchedule"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardElevation="4dp"
+                        >
+
+                        <LinearLayout
+                            android:padding="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/custom_border"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_margin="12dp"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/ic_bus"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Bus Schedule"
+                                android:textSize="12dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_gravity="center_horizontal"
+                                />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </GridLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

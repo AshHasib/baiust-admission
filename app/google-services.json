@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "149755244975",
+    "firebase_url": "https://baiust-admission.firebaseio.com",
+    "project_id": "baiust-admission",
+    "storage_bucket": "baiust-admission.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149755244975:android:0154e20ad0efa28b",
+        "android_client_info": {
+          "package_name": "com.example.hasib.baiustadmission"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149755244975-na2vea62hims31ups9cthl60766ff455.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hasib.baiustadmission",
+            "certificate_hash": "4222d4bd6e91a29f3ef0cb3440a3a6936b4a058f"
+          }
+        },
+        {
+          "client_id": "149755244975-kfp4j9v6m0uobgtp4obdllloaes583qv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeaqIhczDsh5f8xsn_x3bcp91MV5HfhlQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149755244975-kfp4j9v6m0uobgtp4obdllloaes583qv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

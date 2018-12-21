@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/top_menu">
+        <item android:title="Visit Website"
+            android:id="@+id/visitSite"
+            android:icon="@drawable/ic_globe"
+            >
+        </item>
+    </group>
+    <group
+        android:id="@+id/middle_menu">
+        <item
+            android:id="@+id/applyNow"
+            android:icon="@drawable/apply_now"
+            android:title="Apply Now" />
+        <item
+            android:id="@+id/seeResult"
+            android:icon="@drawable/ic_result"
+            android:title="See result" />
+    </group>
+    <group
+        android:id="@+id/bottom_menu">
+        <item
+            android:id="@+id/aboutUs"
+            android:icon="@drawable/ic_about"
+            android:title="About Us" />
+    </group>
+</menu>

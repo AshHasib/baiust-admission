@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">BAIUST Admission</string>
+    <string name="todo">TODO</string>
+
+    <string name="dummyMessage">Lorem Ipsum</string>
+
+    <string name="applyProcedure">
+        Candidates finally selected for admission will have to adhere to the following rules and procedures:\n\nCandidates have to complete admission formalities within a fixed period of time as decided by admission committee.
+Any candidate failing to complete admission formalities within the prescribed time will warrant cancellation of selection automatically.
+Any student failing to attend the class within two weeks of the commencement of the academic program will warrant cancellation of his/her admission and forfeiture of all fees including security deposit.
+Waiting lists will be prepared and displayed by the admission committee as per merit and be notified as per requirement.
+Following documents are to be submitted during admission:\n\na. Payment Slip/ Deposit Slip (Trust Bank) or Pay Order (Addressed to the VC, BAIUST, Comilla Cantonment )\n\nb. 2 x Passport size photographs.\n\nc. Nationality Certificate/Birth Certificate.\n\nd. Original Certificates and Mark sheets of HSC and SSC examinations.\n\ne. Medical Certificate with Blood Group</string>
+
+
+    <string name="contactDetails">Admission Officer\n\nBangladesh Army International University of Science and Technology (BAIUST)\nComilla Cantonment, Comilla\nPhone: 081-73920, 081-73930, Extension - 0, 119\nMobile: 01756436655, 01948080467\nEmail: admission@baiust.edu.bd\n\nWebsite: www.baiust.edu.bd</string>
+
+    <string name="cseDesc">The Department of CSE started its journey in February, 2015. Home to 20 faculty members and more than 450 students, we have been able to establish ourselves as one of the leading CSE departments in the country within the last few years. The department has highly enriched Laboratory facilities. It has 5 labs with more than 200 computers in them. The other labs include Microprocessor lab, Data Communication lab and Interfacing lab. The B.Sc. program is UGC approved and we are in progress for the IEB accreditation. The department excels with a unique blend of the rich collection of faculty members, enhancement of the syllabus to adapt to the dynamic nature of the prevalent technology, extra-curricular activities and most importantly the personal care at all the time. The department has also recently signed Memorandum of Understanding (MoU) with more than 15 leading companies. The Department thanks everyone for the valuable support in bringing us where we are now.</string>
+
+    <string name="eeeDesc">
+        The Department of EEE started its journey in February, 2015. Home to 16 faculty members and more than 300 students. The Department is established with a blend of strong faculty members, highly rich Laboratory facilities, updated curriculum and academic guidelines with global standard and excellent academic environment. Currently, we are situated in the Cumilla Cantonment. The B.Sc. in EEE program is UGC approved and we are in progress for the IEB accreditation. The department is thankful for the valuable support in their beautiful journey.</string>
+
+    <string name="bbaDesc">
+        Department of Business administration started its journey in September, 2015. As the home of business students, the department is planning to establish itself as one of the leading Business Discipline in the country within the next few years. The Department of Business Administration (DBA) is running under the School of Business and offering Bachelor of Business Administration (BBA Program) within current capacity. The BBA and MBA program is duly approved by the University Grant Commission (UGC). Professional/Executive MBA and Evening MBA Program is also under process to be open near future. The department is committed to establishing the School of Business as “Center of excellence for Business Education &amp; Research" to National and International Level. The department thank everyone for the valuable support in bringing us where we are now.</string>
+
+    <string name="ceDesc">
+        The Department of CE started at March, 2016. Home to civil engineering students, the Department is working to establish as one of the leading CE departments in the country within the next few years. Currently, we are situated in the Comilla Cantonment area. The B.Sc. in Civil Engineering program is UGC approved and in process for the IEB accreditation. The department has taken up the challenge of producing quality graduates who can become the future leaders in the global arena. It invites bright young students with the ambition to be an industry leader to join with the department</string>
+
+    <string name="engDesc">
+        Department of English studies British, American, and global Anglophone literatures from the Anglo-Saxon era to the present day, and imparts methods of critical reading and writing. In the department the students receive a firm grounding in the history of literatures in English and become proficient at the analysis and interpretation of texts and learn to express themselves in writing with precision, elegance and persuasion. The department aims at providing instruction and carrying out research in both traditional and current areas of English Studies. The department maintains, highly qualified faculty members who are committed to excellence in teaching and research. Upon graduation, students will be able to enter careers in business, government, the media, the arts, teaching, administration, creative writing etc.</string>
+
+    <string name="scHumDesc">
+        Welcome to the Department of Science &amp; Humanities at BAIUST. The Dept of Science &amp; Humanities started its journey since 15 Feb 2015 with the inception of BAIUST. It is located in the present Campus in Cumilla Cantonment of Cumilla District. This Dept basically provides the fundamental courses required to successfully excel the relevant engineering education and profession.</string>
+
+
+    <string name="culturalClub">
+        Our objective is to make the BAIUST Cultural club a Center for Arts and Culture for the university.Also to make it a gathering place to celebrate, promote, and inspire arts and culture in the university.It also aims to uphold the name of the university in the local and global arena
+    </string>
+
+    <string name="bcc">
+        We are trying to provide leadership quality and ensure another world of every student which is far away from curriculum based education. Educational values will be added by training,workshops and seminars for the students.
+    </string>
+
+    <string name="eeeClub">
+        Established in 2015, BAIUST EEE Club has become one of the most active club in BAIUST. It has a good number of energetic and enthusiastic executives and volunteers, who run the day to day operations as well as organize the larger events. BAIUST EEE Club is organized and functioned by the department of electrical and electronic Engineering (EEE). The Club encourages different co-curricular activities related to EEE department.
+    </string>
+
+    <string name="sportsClub">
+        The mission of BAIUST Sports Club is to foster excellence in both the academic and sport performances of student, and to promote social cohesion and engagement in an active lifestyle among students and staffs.
+    </string>
+
+
+</resources>
